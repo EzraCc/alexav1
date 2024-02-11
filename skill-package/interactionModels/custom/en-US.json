@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "house elf",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RecordIntent",
+                    "slots": [
+                        {
+                            "name": "person",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "record {query} for me",
+                        "record {query}",
+                        "record this {query}",
+                        "write this down {query}",
+                        "note {query}",
+                        "make a note about {query}",
+                        "write this {query}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

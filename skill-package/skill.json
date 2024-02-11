@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "House Elf is here to record everything like you are the king or queen of the house.",
+          "examplePhrases": [
+            "House Elf",
+            "Hello House Elf!",
+            "Ask House Elf",
+            "House Elf help"
+          ],
+          "name": "House Elf",
+          "description": "House Elf is here to record everything like you are the king or queen of the house."
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-west-2:553031127594:function:ask-jade-default-skillStack-169-AlexaSkillFunction-Jkz5jf4GlAKJ"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
